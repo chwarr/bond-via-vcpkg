@@ -1,4 +1,8 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Copyright (c) Microsoft. All rights reserved.
+Licensed under the MIT license. See LICENSE file in the project root for full license information. -->
+
 <Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <Import Project="packages\vcpkg.S.src.vcpkg.1.0.0\build\native\vcpkg.S.src.vcpkg.props" Condition="Exists('packages\vcpkg.S.src.vcpkg.1.0.0\build\native\vcpkg.S.src.vcpkg.props')" />
   <ItemGroup Label="ProjectConfigurations">
